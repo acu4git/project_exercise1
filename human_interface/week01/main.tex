@@ -48,92 +48,59 @@
 5種類の刺激条件間の錯視量の平均値の比較を分散分析により行った．
 
 \section{結果}
-個人のPSE測定の結果を図\ref{fig:myPSE}に示す．なお，本実験では上昇系列をA，下降系列をDと表現している．
+個人のPSE測定の結果を表\ref{tab:myPSE}に示す．なお，本実験では上昇系列をA，下降系列をDと表現している．
 
-\begin{figure}[H]
+\begin{table}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{image/myPSE.png}
   \caption{実験者個人の錯視量の測定結果}
-  \label{fig:myPSE}
-\end{figure}
+  \includegraphics[width=0.8\textwidth]{image/myPSE.png}
+  \label{tab:myPSE}
+\end{table}
 
-班員の刺激条件毎の錯視量のデータを図\ref{fig:group_data}に示す．また，有意水準を$5\si{\percent}$として統計分析を行った．
-\begin{figure}[H]
+班員の刺激条件毎の錯視量のデータを表\ref{tab:group_data}に示す．また，有意水準を$5\si{\percent}$として統計分析を行った．
+\begin{table}[H]
   \centering
-  \includegraphics[width=\textwidth]{image/錯視量_班員データ.png}
   \caption{刺激条件毎の錯視量のデータ}
-  \label{fig:group_data}
-\end{figure}
+  \includegraphics[width=\textwidth]{image/錯視量_班員データ.png}
+  \label{tab:group_data}
+\end{table}
 
 \subsection{上昇系列と下降系列の錯視量の比較}
 鋏角が$60\si{\degree}, 120\si{\degree}, 180\si{\degree}, 240\si{\degree}, 300\si{\degree}$の5種類の標準刺激毎に，系列Aと系列Dの錯視量の平均値を対応のあるt検定により比較した結果を
-鋏角の昇順に図\ref{fig:60degree}-図\ref{fig:300degree}に示す．
+表\ref{tab:t_result}に示す．
 
-\begin{figure}[H]
+\begin{table}[H]
   \centering
-  \includegraphics{image/60degree.png}
-  \caption{鋏角が$60\si{\degree}$のときの，t検定の結果}
-  \label{fig:60degree}
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics{image/120degree.png}
-  \caption{鋏角が$120\si{\degree}$のときの，t検定の結果}
-  \label{fig:120degree}
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics{image/180degree.png}
-  \caption{鋏角が$180\si{\degree}$のときの，t検定の結果}
-  \label{fig:180degree}
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics{image/240degree.png}
-  \caption{鋏角が$240\si{\degree}$のときの，t検定の結果}
-  \label{fig:240degree}
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics{image/300degree.png}
-  \caption{鋏角が$300\si{\degree}$のときの，t検定の結果}
-  \label{fig:300degree}
-\end{figure}
+  \caption{t検定の結果}
+  \includegraphics{image/t_result.png}
+  \label{tab:t_result}
+\end{table}
 
 \subsection{矢羽の角度と錯視量の関係についての実験}
-2つの系列A,Dそれぞれに対して，分散分析を行った結果を図\ref{fig:about_A_oneway}-図\ref{fig:about_D_multi}に示す．
+2つの系列A,Dそれぞれに対して，一元配置分散分析を行った結果を表\ref{tab:f_result}に示す．
 
-\begin{figure}[H]
+\begin{table}[H]
   \centering
-  \includegraphics{image/about_A(一元).png}
-  \caption{系列Aに対する，一元配置分散分析の結果}
-  \label{fig:about_A_oneway}
-\end{figure}
+  \caption{一元配置分散分析の結果}
+  \includegraphics{image/f_result.png}
+  \label{tab:f_result}
+\end{table}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics{image/about_A(多重).png}
-  \caption{系列Aに対する，多重比較の結果}
-  \label{fig:about_A_multi}
-\end{figure}
+2つの系列A,Dそれぞれに対して，多重比較を行った結果をそれぞれ表\ref{tab:a_result}，表\ref{tab:d_result}に示す．
 
-\begin{figure}[H]
+\begin{table}[H]
   \centering
-  \includegraphics{image/about_D(一元).png}
-  \caption{系列Dに対する，一元配置分散分析の結果}
-  \label{fig:about_D_oneway}
-\end{figure}
+  \caption{系列Aにおける多重比較}
+  \includegraphics{image/a_result.png}
+  \label{tab:a_result}
+\end{table}
 
-\begin{figure}[H]
+\begin{table}[H]
   \centering
-  \includegraphics{image/about_D(多重).png}
-  \caption{系列Dに対する，多重比較の結果}
-  \label{fig:about_D_multi}
-\end{figure}
+  \caption{系列Dにおける多重比較}
+  \includegraphics{image/d_result.png}
+  \label{tab:d_result}
+\end{table}
 
 また，系列Aと系列Dの分散分析結果のグラフを図\ref{fig:result_a},図\ref{fig:result_d}に示す．
 \begin{figure}[H]
@@ -152,23 +119,24 @@
 
 \section{考察}
 \subsection{上昇系列と下降系列の錯視量の相違について}
-図\ref{fig:60degree}より，鋏角が$60\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られ(t(12)=2.72, p=.019)，図\ref{fig:group_data}より
+表\ref{tab:t_result}から以下のことが分かる．\\
+鋏角が$60\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られ(t(12)=2.72, p=.019)，表\ref{tab:group_data}より
 系列Aよりも系列Dの方が錯視量が小さい．\\
-図\ref{fig:120degree}より，鋏角が$120\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られない(t(12)=1.76, p=.104)．\\
-図\ref{fig:180degree}より，鋏角が$180\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られ(t(12)=4.17, p=.0013)，図\ref{fig:group_data}より
+鋏角が$120\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られない(t(12)=1.76, p=.104)．\\
+鋏角が$180\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られ(t(12)=4.17, p=.0013)，表\ref{tab:group_data}より
 系列Aよりも系列Dの方が錯視量が小さい．\\
-図\ref{fig:240degree}より，鋏角が$240\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られ(t(12)=4.04, p=.0016)，図\ref{fig:group_data}より
+鋏角が$240\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られ(t(12)=4.04, p=.0016)，表\ref{tab:group_data}より
 系列Dよりも系列Aの方が錯視量が小さい．\\
-図\ref{fig:300degree}より，鋏角が$300\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られない(t(12)=0.75, p=.47)．
+鋏角が$300\si{\degree}$のとき，上昇系列と下降系列で錯視量に有意な差が見られない(t(12)=0.75, p=.47)．
 
 これらの結果から，鋏角が$0-180\si{\degree}$のとき，上昇系列よりも下降系列の方が精度よく測定でき，鋏角が$180-360\si{\degree}$のとき，下降系列よりも上昇系列の方が精度よく測定できると考えられる．
 
 \subsection{矢羽の角度と錯視量の関係について}
-上昇系列における一元配置分散分析の結果（図\ref{fig:about_A_oneway}），5つの刺激条件間の錯視量の差は有意であった(F(4, 60) = 10.44, p<.001)．Turkeyの多重比較の結果（図\ref{fig:about_A_multi}），
+上昇系列における一元配置分散分析の結果（表\ref{tab:f_result}），5つの刺激条件間の錯視量の差は有意であった(F(4, 60) = 10.44, p<.001)．Turkeyの多重比較の結果（表\ref{tab:a_result}），
 鋏角$60\si{\degree}$と$300\si{\degree}$，鋏角$120\si{\degree}$と$300\si{\degree}$，
 鋏角$180\si{\degree}$と$300\si{\degree}$，鋏角$240\si{\degree}$と$300\si{\degree}$の間に有意差が見られた．
 
-また，下降系列におけるおける一元配置分散分析の結果（図\ref{fig:about_D_oneway}），5つの刺激条件間の錯視量の差は有意であった(F(4, 60) = 10.44, p<.001)．Turkeyの多重比較の結果（図\ref{fig:about_D_multi}），
+また，下降系列におけるおける一元配置分散分析の結果（表\ref{tab:f_result}），5つの刺激条件間の錯視量の差は有意であった(F(4, 60) = 10.44, p<.001)．Turkeyの多重比較の結果（表\ref{tab:d_result}），
 鋏角$60\si{\degree}$と$240\si{\degree}$，鋏角$60\si{\degree}$と$300\si{\degree}$，
 鋏角$120\si{\degree}$と$240\si{\degree}$，鋏角$120\si{\degree}$と$300\si{\degree}$の間に有意差が見られた．
 
